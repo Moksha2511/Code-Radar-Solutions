@@ -4,6 +4,6 @@ int main(){
     const float pi=3.14;
     scanf("%f", &radius);
     Area=3.14*radius*radius;
-    printf("Area: %.2f", Area);
+    printf("Area: %.2f\n", Area);
     return 0;
 }
