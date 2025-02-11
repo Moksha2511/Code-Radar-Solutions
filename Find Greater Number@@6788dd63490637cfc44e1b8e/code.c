@@ -6,7 +6,7 @@ int main(){
         printf("%d", a\n);
     }
     else{
-        printf("%d", b\n);
+        printf("%d", b);
     }
     return 0;
 }
