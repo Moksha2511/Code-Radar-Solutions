@@ -5,12 +5,9 @@ int main(){
         printf("Invalid inut\n");
         return 1;
     }
-    if((a>0 && b<0)||(a==0 && b==0)?){
+    printf((a>0 && b<0)||(a==0 && b==0)? "True\n":"False\n");
+    else{
         printf("True\n");
     }
-    else{
-        printf("False\n");
-    }
     return 0;
-}
     
