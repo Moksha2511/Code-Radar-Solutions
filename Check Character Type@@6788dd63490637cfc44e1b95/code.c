@@ -2,12 +2,12 @@
 int main(){
     char ch;
     if(ch=='a' && ch=='e' && ch=='i' && ch=='o' && ch=='u'){
-        printf("Vowel");
+        printf("Vowel\n");
     }else{
-        printf("Consonant");
+        printf("Consonant\n");
     }
     else if(ch>=0 && ch<=9){
-        printf("Digit");
+        printf("Digit\n");
     }else{
         printf("Special Character");
     }
