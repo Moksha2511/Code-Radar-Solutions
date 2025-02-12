@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
-    int num1,num2;
-    scanf("%d %d", &num1,num2);
-    if(num1%num2==0){
+    int num1,divisor;
+    scanf("%d %d", &num1,&divisor);
+    if(num1%divisor==0){
         printf("Yes");
     }
     else{
