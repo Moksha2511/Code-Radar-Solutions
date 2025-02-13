@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    int a,b;
     char operator;
+    int a,b;
     scanf("%d %d %c", &a,&b,&operator);
     switch(operator){
         case '+':
