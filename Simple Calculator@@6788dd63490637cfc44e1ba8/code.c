@@ -1,24 +1,20 @@
 #include<stdio.h>
 int main(){
-    int a,b,result;
+    int a,b;
     char operator;
-    scanf("%d %d %d %c", &a,&b,&reult,&operator);
+    scanf("%d %d %c", &a,&b,&operator);
     switch(operator){
         case '+':
-        result=a+b;
-        printf("%d\n", addition);
+        printf("%d %d", a+b);
         break;
         case '-':
-        result=a-b;
-        printf("%d\n", substraction);
+        printf("%d %d ", a-b);
         break;
         case '*':
-        result=a*b;
-        printf("%d\n", multiplication);
+        printf("%d %d", a*b);
         break;
         case '/':
-        result=a/b;
-        printf("%d\n", division);
+        printf("%d %d", a/b);
         break;
         default:
         printf("Error");
