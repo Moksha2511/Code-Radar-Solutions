@@ -2,23 +2,23 @@
 int main(){
     int a,b,result;
     char operator;
-    scanf("%d %d %c", &a,&b,&operator);
+    scanf("%d %d %d %c", &a,&b,&reult,&operator);
     switch(operator){
         case '+':
         result=a+b;
-        printf("addition\n");
+        printf("%d\n", addition);
         break;
         case '-':
         result=a-b;
-        printf("subtraction\n");
+        printf("%d\n", substraction);
         break;
         case '*':
         result=a*b;
-        printf("multiplication\n");
+        printf("%d\n", multiplication);
         break;
         case '/':
-        result=a/b==0;
-        printf("division\n");
+        result=a/b;
+        printf("%d\n", division);
         break;
         default:
         printf("Error");
