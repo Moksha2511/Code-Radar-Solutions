@@ -17,7 +17,7 @@ int main(){
         printf("multiplication\n");
         break;
         case 1:
-        result=a/b;
+        result=a/b==0;
         printf("division\n");
         break;
         default:
