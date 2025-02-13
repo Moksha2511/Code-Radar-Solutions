@@ -22,8 +22,10 @@ int main(){
         printf("Saturday\n");
         break;
         case 7:
-        printf("Sunday");
+        printf("Sunday\n");
         break;
+        default:
+        printf("Invalid");
     }
     return 0;
 }
